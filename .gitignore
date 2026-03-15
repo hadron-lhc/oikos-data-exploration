@@ -10,7 +10,6 @@ ENV/
 
 # Datos grandes o temporales
 *.csv
-*.db
 *.sqlite
 *.sqlite3
 
