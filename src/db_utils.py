@@ -17,7 +17,7 @@ def get_db_path():
     return Path(os.getcwd()) / "database" / "propiedades.db"
 
 
-DB_PATH = get_db_path()
+DB_PATH = "./database/propiedades.db"
 
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
