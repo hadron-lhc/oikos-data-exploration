@@ -14,7 +14,7 @@ sys.path.insert(0, project_root)
 
 from scraper.config import CIUDADES_POR_ZONA
 
-DB_PATH = Path(__file__).parent / "database" / "propiedades.db"
+DB_PATH = Path(__file__).parent.parent / "database" / "propiedades.db"
 
 
 def obtener_zona_por_ciudad(ciudad):
