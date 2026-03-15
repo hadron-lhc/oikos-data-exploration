@@ -1,0 +1,215 @@
+
+============================================================
+INICIANDO SCRAPING - Máximo 42 páginas por ciudad
+============================================================
+
+
+=== ZONA: GBA Norte ===
+
+  → Ciudad: pilar
+    Página 1/42... ✓ 50 propiedades
+    Página 2/42... ✓ 50 propiedades
+    Página 3/42... ✓ 50 propiedades
+    Página 4/42... ✓ 50 propiedades
+    Página 5/42... ✓ 50 propiedades
+    Página 6/42... ✓ 50 propiedades
+    Página 7/42... ✓ 50 propiedades
+    Página 8/42... ✓ 50 propiedades
+    Página 9/42... ✓ 50 propiedades
+    Página 10/42... ✓ 50 propiedades
+    Página 11/42... ✓ 50 propiedades
+    Página 12/42... ✓ 50 propiedades
+    Página 13/42... ✓ 50 propiedades
+    Página 14/42... ✓ 50 propiedades
+    Página 15/42... ✓ 50 propiedades
+    Página 16/42... ✓ 50 propiedades
+    Página 17/42... ✓ 50 propiedades
+    Página 18/42... ✓ 50 propiedades
+    Página 19/42... ✓ 50 propiedades
+    Página 20/42... ✓ 50 propiedades
+    Página 21/42... ✓ 50 propiedades
+    Página 22/42... ✓ 50 propiedades
+    Página 23/42... ✓ 50 propiedades
+    Página 24/42... ✓ 50 propiedades
+    Página 25/42... ✓ 50 propiedades
+    Página 26/42... ✓ 50 propiedades
+    Página 27/42... ✓ 50 propiedades
+    Página 28/42... ✓ 50 propiedades
+    Página 29/42... ✓ 50 propiedades
+    Página 30/42... ✓ 50 propiedades
+    Página 31/42... ✓ 50 propiedades
+    Página 32/42... ✓ 50 propiedades
+    Página 33/42... ✓ 50 propiedades
+    Página 34/42... ✓ 50 propiedades
+    Página 35/42... ✓ 50 propiedades
+    Página 36/42... ✓ 50 propiedades
+    Página 37/42... ✓ 50 propiedades
+    Página 38/42... ✓ 50 propiedades
+    Página 39/42... ✓ 50 propiedades
+    Página 40/42... ✓ 50 propiedades
+    Página 41/42... ✓ 50 propiedades
+    Página 42/42... ✓ 50 propiedades
+    TOTAL pilar: 2100 propiedades
+DataFrame guardado correctamente en: data.csv
+Progreso guardado (2100 propiedades totales)
+
+  → Ciudad: escobar
+    Página 1/42... ✓ 50 propiedades
+    Página 2/42... ✓ 50 propiedades
+    Página 3/42... ✓ 50 propiedades
+    Página 4/42... ✓ 50 propiedades
+    Página 5/42... ✓ 50 propiedades
+    Página 6/42... ✓ 50 propiedades
+    Página 7/42... ✓ 50 propiedades
+    Página 8/42... ✓ 50 propiedades
+    Página 9/42... ✓ 50 propiedades
+    Página 10/42... ✓ 50 propiedades
+    Página 11/42... ✓ 50 propiedades
+    Página 12/42... ✓ 50 propiedades
+    Página 13/42... ✓ 50 propiedades
+    Página 14/42... ✓ 50 propiedades
+    Página 15/42... ✓ 50 propiedades
+    Página 16/42... ✓ 50 propiedades
+    Página 17/42... ✓ 50 propiedades
+    Página 18/42... ✓ 50 propiedades
+    Página 19/42... ✓ 50 propiedades
+    Página 20/42... ✓ 50 propiedades
+    Página 21/42... ✓ 50 propiedades
+    Página 22/42... ✓ 50 propiedades
+    Página 23/42... ✓ 50 propiedades
+    Página 24/42... ✓ 50 propiedades
+    Página 25/42... ✓ 50 propiedades
+    Página 26/42... ✓ 50 propiedades
+    Página 27/42... ✓ 50 propiedades
+    Página 28/42... ✓ 50 propiedades
+    Página 29/42... ✓ 50 propiedades
+    Página 30/42... ✓ 50 propiedades
+    Página 31/42... ✓ 50 propiedades
+    Página 32/42... ✓ 50 propiedades
+    Página 33/42... ✓ 50 propiedades
+    Página 34/42... ✓ 50 propiedades
+    Página 35/42... ✓ 50 propiedades
+    Página 36/42... ✓ 50 propiedades
+    Página 37/42... ✓ 50 propiedades
+    Página 38/42... ✓ 50 propiedades
+    Página 39/42... ✓ 50 propiedades
+    Página 40/42... ✓ 50 propiedades
+    Página 41/42... ✓ 50 propiedades
+    Página 42/42... ✓ 50 propiedades
+    TOTAL escobar: 2100 propiedades
+DataFrame guardado correctamente en: data.csv
+Progreso guardado (4200 propiedades totales)
+
+  → Ciudad: tigre
+    Página 1/42... ✓ 50 propiedades
+    Página 2/42... ✓ 50 propiedades
+    Página 3/42... ✓ 50 propiedades
+    Página 4/42... ✓ 50 propiedades
+    Página 5/42... ✓ 50 propiedades
+    Página 6/42... ✓ 50 propiedades
+    Página 7/42... ✓ 50 propiedades
+    Página 8/42... ✓ 50 propiedades
+    Página 9/42... ✓ 50 propiedades
+    Página 10/42... ✓ 50 propiedades
+    Página 11/42... ✓ 50 propiedades
+    Página 12/42... ✓ 50 propiedades
+    Página 13/42... ✓ 50 propiedades
+    Página 14/42... ✓ 50 propiedades
+    Página 15/42... ✓ 50 propiedades
+    Página 16/42... ✓ 50 propiedades
+    Página 17/42... ✓ 50 propiedades
+    Página 18/42... ✓ 50 propiedades
+    Página 19/42... ✓ 50 propiedades
+    Página 20/42... ✓ 50 propiedades
+    Página 21/42... ✓ 50 propiedades
+    Página 22/42... ✓ 50 propiedades
+    Página 23/42... ✓ 50 propiedades
+    Página 24/42... ✓ 50 propiedades
+    Página 25/42... ✓ 50 propiedades
+    Página 26/42... ✓ 50 propiedades
+    Página 27/42... ✓ 50 propiedades
+    Página 28/42... ✓ 50 propiedades
+    Página 29/42... ✓ 50 propiedades
+    Página 30/42... ✓ 50 propiedades
+    Página 31/42... ✓ 50 propiedades
+    Página 32/42... ✓ 50 propiedades
+    Página 33/42... ✓ 50 propiedades
+    Página 34/42... ✓ 50 propiedades
+    Página 35/42... ✓ 50 propiedades
+    Página 36/42... ✓ 50 propiedades
+    Página 37/42... ✓ 50 propiedades
+    Página 38/42... ✓ 50 propiedades
+    Página 39/42... ✓ 50 propiedades
+    Página 40/42... ✓ 50 propiedades
+    Página 41/42... ✓ 50 propiedades
+    Página 42/42... ✓ 50 propiedades
+    TOTAL tigre: 2100 propiedades
+DataFrame guardado correctamente en: data.csv
+Progreso guardado (6300 propiedades totales)
+
+  → Ciudad: san-isidro
+    Página 1/42... ✓ 50 propiedades
+    Página 2/42... ✓ 50 propiedades
+    Página 3/42... ✓ 50 propiedades
+    Página 4/42... ✓ 50 propiedades
+    Página 5/42... ✓ 50 propiedades
+    Página 6/42... ✓ 50 propiedades
+    Página 7/42... ✓ 50 propiedades
+    Página 8/42... ✓ 50 propiedades
+    Página 9/42... ✓ 50 propiedades
+    Página 10/42... ✓ 50 propiedades
+    Página 11/42... ✓ 50 propiedades
+    Página 12/42... ✓ 50 propiedades
+    Página 13/42... ✓ 50 propiedades
+    Página 14/42... ✓ 50 propiedades
+    Página 15/42... ✓ 50 propiedades
+    Página 16/42... ✓ 50 propiedades
+    Página 17/42... ✓ 50 propiedades
+    Página 18/42... ✓ 50 propiedades
+    Página 19/42... ✓ 50 propiedades
+    Página 20/42... ✓ 50 propiedades
+    Página 21/42... ✓ 50 propiedades
+    Página 22/42... ✓ 50 propiedades
+    Página 23/42... ✓ 50 propiedades
+    Página 24/42... ✓ 50 propiedades
+    Página 25/42... ✓ 50 propiedades
+    Página 26/42... ✓ 50 propiedades
+    Página 27/42... ✓ 50 propiedades
+    Página 28/42... ✓ 50 propiedades
+    Página 29/42... ✓ 50 propiedades
+    Página 30/42... ✓ 50 propiedades
+    Página 31/42... ✓ 50 propiedades
+    Página 32/42... ✓ 50 propiedades
+    Página 33/42... ✓ 50 propiedades
+    Página 34/42... ✓ 50 propiedades
+    Página 35/42... ✓ 50 propiedades
+    Página 36/42... ✓ 50 propiedades
+    Página 37/42... ✓ 50 propiedades
+    Página 38/42... ✓ 50 propiedades
+    Página 39/42... ✓ 50 propiedades
+    Página 40/42... ✓ 50 propiedades
+    Página 41/42... ✓ 50 propiedades
+    Página 42/42... ✓ 50 propiedades
+    TOTAL san-isidro: 2100 propiedades
+DataFrame guardado correctamente en: data.csv
+Progreso guardado (8400 propiedades totales)
+
+  → Ciudad: san-miguel
+    Página 1/42... ✓ 50 propiedades
+    Página 2/42... ✓ 50 propiedades
+    Página 3/42... ✓ 50 propiedades
+    Página 4/42... ✓ 50 propiedades
+    Página 5/42... ✓ 50 propiedades
+    Página 6/42... ✓ 50 propiedades
+    Página 7/42... ✓ 50 propiedades
+    Página 8/42... ✓ 50 propiedades
+    Página 9/42... ✓ 50 propiedades
+    Página 10/42... ✓ 50 propiedades
+    Página 11/42... ✓ 50 propiedades
+    Página 12/42... ✓ 50 propiedades
+    Página 13/42... ✓ 50 propiedades
+    Página 14/42... ✓ 50 propiedades
+    Página 15/42... ✓ 50 propiedades
+    Página 16/42... ✓ 50 propiedades
+    Página 17/42... ✓ 50 propiedades
+    Página 18/42...
