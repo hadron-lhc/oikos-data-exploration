@@ -1,43 +1,43 @@
 # Oikos Data Exploration
 
-![Cover](./images/oikos-exploration.png)
+![Portada](./images/oikos-exploration.png)
 
-## Description
+## Descripción
 
-**Oikos Data Exploration** is an extension of the **Oikos** project, a web application for real estate property search. This project is responsible for exploring, analyzing, and visualizing the complete property dataset used in the main application.
+**Oikos Data Exploration** es una extensión del proyecto **Oikos**, una aplicación web de búsqueda de propiedades Inmobiliarias. Este proyecto se encarga de explorar, analizar y visualizar el dataset completo de propiedades utilizado en la aplicación principal.
 
-## Features
+## Características
 
-- **Interactive Dashboard**: Web interface built with Streamlit to explore the data
-- **Scrapers**: Scripts to fetch property data from public sources
-- **Database**: Property storage in SQLite
-- **Data Analysis**: Tools to clean and analyze the dataset
+- **Dashboard Interactivo**: Interfaz web construida con Streamlit para explorar los datos
+- **Scrapers**: Scripts para obtener datos de propiedades desde fuentes públicas
+- **Base de Datos**: Almacenamiento de propiedades en SQLite
+- **Análisis de Datos**: Herramientas para limpiar y analizar el dataset
 
-## Project Structure
+## Estructura del Proyecto
 
 ```
 oikos_data_exploration/
-├── analysis/          # Data analysis scripts
+├── analysis/          # Scripts de análisis de datos
 │   ├── 01_analizar_dataset.py
 │   └── 02_limpiar_datos.py
-├── dashboard/        # Streamlit application
+├── dashboard/        # Aplicación Streamlit
 │   └── app.py
-├── database/         # SQLite database
+├── database/         # Base de datos SQLite
 │   └── propiedades.db
-├── images/           # Project images
+├── images/           # Imágenes del proyecto
 │   └── oikos-exploration.png
-├── scraper/          # Scrapers to fetch data
+├── scraper/          # Scrapers para obtener datos
 │   ├── scraper_ml.py
 │   ├── scraper_ml_incremental.py
 │   └── processing.py
-├── src/              # Utilities and data
+├── src/              # Utilidades y datos
 │   ├── db_utils.py
 │   ├── crear_db.py
 │   └── limpiar_db.py
 └── requirements.txt
 ```
 
-## Requirements
+## Requisitos
 
 - Python 3.8+
 - streamlit
@@ -47,53 +47,51 @@ oikos_data_exploration/
 - beautifulsoup4
 - lxml
 
-## Installation
+## Instalación
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## Uso
 
-### Run the Dashboard
+### Ejecutar el Dashboard
 
 ```bash
 streamlit run dashboard/app.py
 ```
 
-This will open a web interface where you can:
-- View overall dataset metrics
-- Filter properties by zone, city, and price range
-- Explore the complete property table
+Esto abrirá una interfaz web donde podrás:
 
-### Run the Scrapers
+- Ver métricas generales del dataset
+- Filtrar propiedades por zona, ciudad y rango de precios
+- Explorar la tabla completa de propiedades
+
+### Ejecutar los Scrapers
 
 ```bash
-# Full scraper
+# Scraper completo
 python scraper/scraper_ml.py
 
-# Incremental scraper
+# Scraper incremental
 python scraper/scraper_ml_incremental.py
 ```
 
-### Data Analysis
+### Análisis de Datos
 
 ```bash
-# Analyze dataset
+# Analizar dataset
 python analysis/01_analizar_dataset.py
 
-# Clean data
+# Limpiar datos
 python analysis/02_limpiar_datos.py
 ```
 
-## Relationship with Oikos
+## Relación con Oikos
 
-This project is an **extension** of the main **Oikos** project. While Oikos is the final property search application for end users, this project:
+Este proyecto es una **extensión** del proyecto principal **Oikos**. Mientras que Oikos es la aplicación final de búsqueda de propiedades para usuarios finales, este proyecto:
 
-- Provides the property dataset
-- Allows analyzing and validating data quality
-- Facilitates exploration and understanding of the dataset
+- Proporciona el dataset de propiedades
+- Permite analizar y validar la calidad de los datos
+- Facilita la exploración y comprensión del dataset
 
-## License
-
-MIT License
