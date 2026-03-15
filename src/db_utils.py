@@ -9,7 +9,15 @@ import os
 from pathlib import Path
 
 
-DB_PATH = Path(__file__).parent.parent / "database" / "propiedades.db"
+def get_db_path():
+    """Obtiene la ruta de la base de datos, primero desde variable de entorno o usa cwd"""
+    env_path = os.environ.get("DB_PATH")
+    if env_path:
+        return Path(env_path)
+    return Path(os.getcwd()) / "database" / "propiedades.db"
+
+
+DB_PATH = get_db_path()
 
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
