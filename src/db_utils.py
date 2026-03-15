@@ -9,12 +9,12 @@ import os
 from pathlib import Path
 
 
+DB_PATH = Path(__file__).parent.parent / "database" / "propiedades.db"
+
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
 
 from scraper.config import CIUDADES_POR_ZONA
-
-DB_PATH = Path(__file__).parent.parent / "database" / "propiedades.db"
 
 
 def obtener_zona_por_ciudad(ciudad):
